@@ -387,7 +387,8 @@ namespace Discount
             this.ShowIcon = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Dividende";
+            this.Text = "Dividende v.1";
+            this.Load += new System.EventHandler(this.frmDiscount_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -410,6 +411,11 @@ namespace Discount
 		}
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmDiscount_Load(object sender, EventArgs e)
         {
 
         }
