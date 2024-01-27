@@ -133,8 +133,9 @@ namespace Discount
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(669, 34);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Calculator Dividende";
+            this.label1.Text = "Calculator Dividende -";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -407,5 +408,10 @@ namespace Discount
 		private void txtDiscount_Percent_TextChanged(object sender, EventArgs e)
 		{
 		}
-	}
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
