@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Calculator Dividende.exe" version="1.0.0.0" publicKeyToken="a3402f5ae98efb59" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Calculator Dividende" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Calculator Dividende.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Calculator Dividende.exe" size="13272">
+      <assemblyIdentity name="Calculator Dividende" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Tq4r6R4FRVCP/N6xH+9M4rgN23zYb6hWXyTt0xsrawY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Calculator Dividende.exe.config" size="161">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1hvekB5xicyX1FodTEqjnUxN4raEGXc+x3QzhQbWWa0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=ELITEDESK-G3\Andrei" issuerKeyHash="1fccd18a8b5d5687e394c444ef86d25a731b7871" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>0KyDSe1boDLuJ0tqAr9YNcc8dgBaUAvZCFXWbBID5NQ=</DigestValue></Reference></SignedInfo><SignatureValue>iYAoDNEjEavPlPQMDgJ83X1k9ly51VA+QJ4cGtdrdf3PxqqnZ5Jn54bZX52lOmwVGXLoYR4JgOXlGvbCjt1IsbkmzHBnD44Kvj8d1beW0s0ALUiQE0b1ZUT/esa8Xgp5wJnDnAV6WZf7x4TLQIWbl6T2CtRGAIqJ8bYepWNGjRw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zeKXFBUrobg4PADd7LhVrRpxEjjHSrO28GgvV3R/PxWZWFHEbQZ7Fhuj2UkiBrZAwltm1HekFId4qTK3mr/8KCWtmURsS8gB4jLt+GeQ/hDNyOFIXbCEyxp84CrME8sOHeNcUar7w8asHQVECUQza5qk3F+ivHuSUscQ7OLCwZE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d4e403126cd65508d90b505a00763cc73558bf026a4b27ee32a05bed4983acd0" Description="" Url=""><as:assemblyIdentity name="Calculator Dividende.exe" version="1.0.0.0" publicKeyToken="a3402f5ae98efb59" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ELITEDESK-G3\Andrei</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8FocWZwIoR8STuf1h2s269s8VuyX30lxjuxPeYIzBag=</DigestValue></Reference></SignedInfo><SignatureValue>qjh7CYafeOQn/KL4YWs4qMSrCxz/evJtVeu0+oPWv7NgM9gAN0TKDeIjQHPhRqNCLj6RihMD/tJHzJJGf6V9w889eHsL6zHa7wcAtJCaWimBvfaET+nlOQgDYGw5YXBIZCIyPoGC7NLmTMYeZGzCcMiZ55yqcG5LES7RdeR1ank=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zeKXFBUrobg4PADd7LhVrRpxEjjHSrO28GgvV3R/PxWZWFHEbQZ7Fhuj2UkiBrZAwltm1HekFId4qTK3mr/8KCWtmURsS8gB4jLt+GeQ/hDNyOFIXbCEyxp84CrME8sOHeNcUar7w8asHQVECUQza5qk3F+ivHuSUscQ7OLCwZE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQMtZUAeUNzL5M740uKieu6jANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYARQBMAEkAVABFAEQARQBTAEsALQBHADMAXABBAG4AZAByAGUAaTAeFw0yNDAxMjcwMjQ5MjdaFw0yNTAxMjYwODQ5MjdaMDExLzAtBgNVBAMeJgBFAEwASQBUAEUARABFAFMASwAtAEcAMwBcAEEAbgBkAHIAZQBpMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDN4pcUFSuhuDg8AN3suFWtGnESOMdKs7bwaC9XdH8/FZlYUcRtBnsWG6PZSSIGtkDCW2bUd6QUh3ipMreav/woJa2ZRGxLyAHiMu34Z5D+EM3I4UhdsITLGnzgKswTyw4d41xRqvvDxqwdBUQJRDNrmqTcX6K8e5JSxxDs4sLBkQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFLGfgRWkY2aibD5gxlp40YUrZ5oCaYGR4tSSGc2KEOU23gbhzwPVqbtpbUbniwSWnh7Iuy48RFBaZxtmX+GThJ1EBxj6ltPgp2Qz4+zpfpzrx/8wXsm92zhybokDQPoy0ULnyqU2qKDa2stUDyiWsj1EFrDiOkRbyy9ZJKegtnt</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
