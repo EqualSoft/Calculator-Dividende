@@ -1,6 +1,3 @@
-import tkinter as tk
-from tkinter import ttk
-
 def calculate_tax():
     gross = float(gross_entry.get())
     tax_percentage = float(tax_entry.get())
